@@ -4,13 +4,13 @@
   :license {:name "Apache 2.0"
             :url "http://www.apache.org/licenses/LICENSE-2.0"}
 
-  :jvm-opts ["--add-modules" "java.xml.bind"]
+  ;:jvm-opts ["--add-modules" "java.xml.bind"]
 
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [org.clojure/clojurescript "1.10.238"]
                  [org.clojure/core.async "0.4.474"]
                  [reagent "0.7.0"]
-                 [devcards "0.2.2" :exclusions [cljsjs/react cljsjs/create-react-class cljsjs/react-dom-server cljsjs/react-dom]]
+                 [devcards "0.2.2"]
                  [org.clojure/test.check "0.9.0"]
                  [org.clojure/core.match "0.3.0-alpha4"]
                  [prismatic/schema "1.1.6"]]
